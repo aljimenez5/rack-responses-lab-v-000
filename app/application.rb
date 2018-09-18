@@ -3,7 +3,7 @@ class Application
   
   def call(env)
   resp = Rack::Response.new
-  if Time.now == 
+  if Time.new == 
   
   resp.write
   
